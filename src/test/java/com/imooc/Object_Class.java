@@ -27,7 +27,6 @@ public class Object_Class {
         two.setMonth(1);
         two.setName("2");
         three.eat();
-
         System.out.println("========================");
         /*
          * 向下转型 强制类型转换
