@@ -19,9 +19,21 @@ public class Compare_Test {
         System.out.println("three == four结果："+(three == four));
 
         Integer five = 200;
-        System.out.println("five == 20 结果："+(five == 200));
+        System.out.println("five == 200 结果："+(five == 200));
 
         Integer six = 200;
         System.out.println("five == six 结果："+(five == six));
+
+        Double d1 = Double.valueOf(100.0);
+        Double d2 = Double.valueOf(100.0);
+        System.out.println("d1 = d2 结果： "+(d1 == d2));
+
+        Float f1 = Float.valueOf(100.0f);
+        Float f2 = Float.valueOf(100.0f);
+        System.out.println("f1 = f2 结果： "+(f1 == f2));
+
+
+
+
     }
 }
