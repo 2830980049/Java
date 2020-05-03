@@ -11,6 +11,24 @@ public class Goods {
         this.price = price;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Goods))
+            return false;
+        if(obj == this)
+            return true;
+        Goods goods = (Goods)obj;
+        if (this.getId() == goods.getId())
+            return true;
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        String hashcode = this.getId()+"_"+this.getName();
+        return hashcode.hashCode();
+    }
+
     public String getId() {
         return id;
     }
