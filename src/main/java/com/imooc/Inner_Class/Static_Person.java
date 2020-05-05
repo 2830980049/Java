@@ -13,7 +13,7 @@ public class Static_Person {
         return new Heart();
     }
 
-    public  void eat(){
+    public void eat(){
         System.out.println("人会吃东西");
     }
 

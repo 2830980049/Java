@@ -25,6 +25,7 @@ public class Inner_Class_Test {
         //获取内部类对象实例 方式3：外部类对象.获取方法
         myheart = lili.getHeart();
         System.out.println(myheart.beat());
+
     }
 
     @Test
@@ -33,9 +34,7 @@ public class Inner_Class_Test {
         //获取静态内部类对象实例
         Static_Person.Heart myheart = new Static_Person.Heart();
         System.out.println(myheart.beat());
-
         Static_Person.Heart.say();
-
 
     }
 
@@ -44,6 +43,9 @@ public class Inner_Class_Test {
 
         Way_Person lili = new Way_Person();
         System.out.println(lili.getHeart());
+
+        Way_Person w = new Way_Person();
+        w.getHeart();
 
     }
 
