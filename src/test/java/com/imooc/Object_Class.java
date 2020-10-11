@@ -1,8 +1,8 @@
 package com.imooc;
 
-import com.imooc.Animal_Objec_Class.Animal;
-import com.imooc.Animal_Objec_Class.Cat;
-import com.imooc.Animal_Objec_Class.Dog;
+import com.imooc.Animal_Abstract_Class.Animal;
+import com.imooc.Animal_Abstract_Class.Cat;
+import com.imooc.Animal_Abstract_Class.Dog;
 import org.junit.Test;
 
 /**

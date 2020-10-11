@@ -1,4 +1,4 @@
-package com.imooc.Animal_Objec_Class;
+package com.imooc.Animal_Abstract_Class;
 
 /**
  * @author Wuqili

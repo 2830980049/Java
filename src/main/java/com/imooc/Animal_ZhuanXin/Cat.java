@@ -10,8 +10,10 @@ public class Cat extends Animal{
     private double weight;
     public Cat() {
         // TODO Auto-generated constructor stub
+
     }
     public Cat(String name,int month,double weight) {
+
         super(name,month);
         this.weight = weight;
     }

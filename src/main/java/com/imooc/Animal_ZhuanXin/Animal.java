@@ -6,13 +6,12 @@ package com.imooc.Animal_ZhuanXin;
  * @date 2019/12/13 15:48
  */
 public  class Animal {
-
+    private final static int s = 11;
     private String name;
     private int month;
     public Animal() {
 
     }
-
     public Animal(String name,int month) {
         this.month = month;
         this.name = name;

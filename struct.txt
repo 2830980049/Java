@@ -1,0 +1,22 @@
+entity    	实体类
+dao       	持久层
+biz        	业务层
+controller  控制器
+global	全局数据	
+
+全局类
+   
+    编码过滤器
+    核心控制器
+    Dao工厂 获取持久化操作的工具类
+
+
+
+后台分类管理
+  
+   分类信息增删查
+   关注点
+          多级分离关联关系
+          批处理应用
+
+admin/Catalog/list.do

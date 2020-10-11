@@ -1,4 +1,4 @@
-package com.imooc.Animal_Objec_Class;
+package com.imooc.Animal_Abstract_Class;
 
 /**
  * @author Wuqili
@@ -13,10 +13,11 @@ public abstract class Animal {
     private String name;
     private int month;
     public Animal() {
-
+        super();
     }
 
     public Animal(String name,int month) {
+        super();
         this.month = month;
         this.name = name;
     }
@@ -40,5 +41,7 @@ public abstract class Animal {
     //抽象方法：不允许包含方法体；子类中需要重写父类的抽象方法，否则，子类也是抽象类
     public abstract void eat();
 
+    public void  st(){
+    }
 }
 
