@@ -59,6 +59,24 @@ public class Animal_ZhuanXin_Test {
             System.out.println("Object");
         }
 
+        Animal animal = new Animal();
+        Animal cat = new Cat();
+        Animal dog = new Dog();
+        Cat cat1 = (Cat)cat;
+        Dog dog1 = (Dog)dog;
+        if (cat1 instanceof Cat){
+            System.out.println("cat1");
+        }
+        if (dog1 instanceof Dog){
+            System.out.println("dog1");
+        }
+        if (cat1 instanceof Animal){
+            System.out.println("Animal - cat");
+        }
+        if (dog1 instanceof Dog){
+            System.out.println("Animal - dog");
+        }
+
     }
 
 }

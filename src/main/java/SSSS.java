@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class SSSS {
+public class SSSS{
     static class Runner2 implements Runnable{
 
         @Override

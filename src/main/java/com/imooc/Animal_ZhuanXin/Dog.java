@@ -27,6 +27,7 @@ public class Dog extends Animal{
         System.out.println("小狗睡觉");
     }
 
+    @Override
     public void eat() {
         // TODO Auto-generated method stub
         System.out.println("狗吃肉");
