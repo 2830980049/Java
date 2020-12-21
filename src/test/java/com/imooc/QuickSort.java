@@ -7,13 +7,17 @@ import java.util.Scanner;
  * 首先设置一个基准
  * 从后半部分开始，
  *    如果扫描到的值大于基准数据就让high减1
- *    如果发现有元素比该基准数据的值小
- *    就将high位置的值赋值给low位置
+ *    如果发现有元素小于基准数据的值
+ *    假如此时 下标为 j
  *
  * 然后开始从前往后扫描
  *    如果扫描到的值小于基准数据就让low加1
  *    如果发现有元素大于基准数据的值
- *    就再将low位置的值赋值给high位置的值
+ *    假如此时 下标为 i
+ *    交换 i 和 j 对应的值
+ *
+ * 当 i == j 时
+ *    交换 基准 和 (i或者j) 对应的值
  */
 public class QuickSort {
     public static void qucikSort(int[] a,int low ,int high){
