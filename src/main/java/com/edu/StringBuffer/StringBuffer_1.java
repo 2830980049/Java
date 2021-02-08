@@ -13,5 +13,4 @@ public class StringBuffer_1 {
         System.out.println(stringBuilder.charAt(1));
         System.out.println(stringBuilder);
     }
-
 }
